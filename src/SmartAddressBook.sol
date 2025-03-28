@@ -30,6 +30,7 @@ contract SmartAddressBook {
     }
 
     function addPerson(string memory _name, uint256 _favNum) public {
+        require(bytes(_name).length > 0, "Name Required!");
         Member memory newMember = Member(_name, _favNum);
         memberList.push(newMember);
         addressToMember[msg.sender] = newMember;
