@@ -69,5 +69,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ### Connect
 
-Made with ❤️ by Salman "Izzy" Izzuddin  
+Made by Salman "Izzy" Izzuddin  
 Feel free to reach out for collaboration or questions!
